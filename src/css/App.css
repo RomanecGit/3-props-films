@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Muli:400,300italic,300,400italic);
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+body,
+html {
+  margin: 0;
+  font-family: muli;
+  height: 100%;
+  padding: 0;
+  overflow-x:hidden;
+  color: #484848;
+}
+
+.container {
+  margin: 50px auto;
+  width: 50%;
+  min-width: 670px;
+}
+
+.material-icons{
+  font-size: 40px;
+}
+
+.film {
+  width: 670px;
+  height: 220px;
+  background: #F5F5F5;
+  border-radius: 4px;
+  margin-bottom: 25px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  padding: 10px 10px;
+  position: relative;
+}
+
+.film img{
+  object-fit: cover;
+  height: 215px;
+  float: left;
+  margin-right:20px;
+  width:210px;
+}
+
+h2
+{
+  margin: 20px auto;
+}
+
+h5{
+  margin: 0px auto;
+  text-align: center;
+}
+
+.price{
+  color:red;
+  font-size: 24px;
+
+}
+button{
+  float:right;
+  background-color: #9c938a;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: white;
+  border-radius: 5px;
+  padding: 12px 12px;
+  cursor: pointer;
+  border: 1px #9c938a solid;
+  margin-left: 70px;
+}
+
+.card-body-stars {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+  width: 150px;
+}
+
+.buyBlock{
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 25px;
+  right: 0;
+  margin-right: 15px;
+}
